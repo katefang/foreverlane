@@ -1,0 +1,14 @@
+.homepage {
+  height: 57vw;
+
+  .top-image {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/everlane/image/upload/c_scale/c_fill,dpr_2.0,f_auto,g_face:center,q_auto,w_auto:150:1440/v1/i/f7bd8dc8_1cf9.jpg');
+    background-size: cover;
+  }
+
+  .highlights {
+    width: 100%;
+  }
+}

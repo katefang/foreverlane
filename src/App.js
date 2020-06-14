@@ -1,17 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route } from 'react-router-dom';
+
 import './App.css';
 
-function App() {
-<<<<<<< HEAD
-  return <div className='App'>Hello</div>;
-=======
-  return (
-    <div className="App">
-      <h1>Hello Peter!</h1>
-    </div>
-  );
->>>>>>> ea539db3dffa7c3f3748476399049d900eb4a431
-}
+import Header from './components/header/header.component';
+import Navbar from './components/nav-bar/nav-bar.component';
+import Homepage from './pages/homepage/homepage.component';
+
+const App = () => (
+  <div>
+    <Header />
+    <Navbar />
+    <Route path='/' component={Homepage} />
+  </div>
+);
 
 export default App;
