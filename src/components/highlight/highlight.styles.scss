@@ -1,7 +1,28 @@
+a {
+  color: #1a1a1a;
+}
+
 .highlight {
   width: 32%;
 
   .highlight-img {
     width: 100%;
+  }
+
+  .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 26px 0 0;
+
+    .caption-title {
+      font-size: 22px;
+    }
+
+    .caption-subtitle {
+      padding: 10px 0 0 0;
+      font-size: 14px;
+      color: #6f6f6f;
+    }
   }
 }
