@@ -1,3 +1,9 @@
 body {
   margin: 0;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
 }
